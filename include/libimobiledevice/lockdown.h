@@ -418,7 +418,7 @@ void lockdownd_client_set_label(lockdownd_client_t client, const char *label);
  *
  * @return LOCKDOWN_E_SUCCESS on success
  */
-lockdownd_error_t lockdownd_get_device_udid(lockdownd_client_t control, char **udid);
+lockdownd_error_t lockdownd_get_device_udid(lockdownd_client_t client, char **udid);
 
 /**
  * Retrieves the name of the device from lockdownd set by the user.
